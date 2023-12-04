@@ -1,0 +1,89 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.section-tittle{
+    font-family: pacifico, cursive;
+}
+
+.nav-link:hover{
+    color: blue
+}
+
+#main-header {
+    background-color: rgba(0, 153, 255, 0.966);
+}
+
+.color-tittle,
+#card > .card-img-overlay {
+    color: rgba(0, 153, 255, 0.966);
+}
+
+
+.img-c{
+    height: 20em;
+}
+
+
+.img-h{
+    height: 10em;
+}
+
+#fale-conosco,
+#copy {
+    background-color: rgb(0,0,0,0.8);
+}
+
+.btn {
+    color: rgba(0, 153, 255, 0.966);
+    border: solid 0.5em;
+}
+
+.btn:hover{
+    color: white;
+    background-color: rgba(0, 153, 255, 0.966);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) and ( max-width: 1023px) {
+    .img-c{
+        height: 12em;
+    }
+
+    .col-8{
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    #sobre-nos > .container {
+        flex-direction: column;
+    }
+
+    .img-c {
+        height: 12em;
+        width: 18em;
+    }
+
+    .section-tittle {
+        padding-top: 10px;
+    }
+
+    .card-text{
+        font-size: 0.7em;
+    }
+
+    
+    
+}
+
+
